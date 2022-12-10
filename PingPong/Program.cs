@@ -107,6 +107,7 @@ namespace PingPong
         static void SecondPlayerAIMove()
         {
             int randomNumber = randomGenerator.Next(1, 101);
+
             //if (randomNumber == 0)
             //{
             //    MoveSecondPlayerUp();
@@ -115,6 +116,7 @@ namespace PingPong
             //{
             //    MoveSecondPlayerDown();
             //}
+
             if (randomNumber <= 70)
             {
                 if (ballDirectionUp == true)
